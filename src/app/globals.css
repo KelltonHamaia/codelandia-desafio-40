@@ -4,6 +4,11 @@
  
 @layer base {
   :root {
+    --brand:  260, 99%, 71%;
+    --dark-10: 0 0% 15%;
+    --dark-20: 0 0% 25%;
+    --dark-30: 0 0% 55%;
+    --dark-40: 0 0% 100%;
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
 
@@ -73,4 +78,10 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@layer components {
+    .nav--item {
+        @apply flex gap-3 p-4 hover:cursor-pointer hover:text-brand
+    }
 }

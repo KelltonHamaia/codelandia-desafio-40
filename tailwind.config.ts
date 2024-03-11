@@ -11,6 +11,12 @@ const config = {
 	],
   prefix: "",
   theme: {
+    fontSize: {
+        "32px": "2rem"
+    },
+    width: {
+        "19": "19rem"
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -24,6 +30,11 @@ const config = {
           },
       colors: {
         border: "hsl(var(--border))",
+        brand: "hsl(var(--brand))",
+        "dark-10": "hsl(var(--dark-10))",
+        "dark-20": "hsl(var(--dark-20))",
+        "dark-30": "hsl(var(--dark-30))",
+        "dark-40": "hsl(var(--dark-40))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
