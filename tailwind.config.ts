@@ -11,18 +11,12 @@ const config = {
 	],
   prefix: "",
   theme: {
-    fontSize: {
-        "32px": "2rem"
-    },
-    width: {
-        "19": "19rem"
-    },
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+      container: {
+        center: true,
+        padding: "2rem",
+        screens: {
+          "2xl": "1400px",
+        },
     },
     extend: {
         fontFamily: {

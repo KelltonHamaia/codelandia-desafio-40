@@ -1,13 +1,18 @@
 "use client"
 
+import { Header } from "@/components/header/header";
 import { SidebarMenu } from "@/components/sidebar/sidebar-menu";
 
 const Page = () => {
 
     return (
-        <nav className='w-19 flex'>
+        <div className='flex'>
             <SidebarMenu />
-        </nav>
+
+            <main className="flex flex-1 w-full p-10">
+                <Header />
+            </main>
+        </div>
     );
 
 }
