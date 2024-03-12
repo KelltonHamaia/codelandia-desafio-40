@@ -4,7 +4,7 @@ import { AvatarMenu } from '@/components/header/avatar';
 export const Header = () => {
 
     return (
-        <div className='flex justify-between w-full h-[72px]'>
+        <header className='flex justify-between w-full h-[72px]'>
             <div className="flex flex-col justify-center flex-1">
                 <Menu className='block lg:hidden' />
                 <div className="hidden lg:block">
@@ -19,7 +19,7 @@ export const Header = () => {
                 </div>
                 <AvatarMenu />
             </div>
-        </div>
+        </header>
     );
 
 }
