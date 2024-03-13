@@ -1,5 +1,6 @@
 "use client"
 
+import { BuyerHistoryTableArea } from "@/components/buyers-history/buyers-history-area";
 import { ChartArea } from "@/components/chart/chartArea";
 import { Header } from "@/components/header/header";
 import { ReportArea } from "@/components/reports/report-area";
@@ -15,6 +16,7 @@ const Page = () => {
                 <Header />
                 <ChartArea />
                 <ReportArea />
+                <BuyerHistoryTableArea />
             </main>
 
         </div>
