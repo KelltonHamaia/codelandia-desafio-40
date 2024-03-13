@@ -1,7 +1,7 @@
 export const TransactionHistory = () => {
 
     return (
-        <div className='w-full max-w-lg flex flex-col gap-4'>
+        <div className='w-full flex flex-col gap-4'>
             <div className="flex justify-between text-sm lg:text-lg p-2 text-brand font-semibold mt-4 bg-white/50 rounded">
                 <h2>Ontem</h2>
                 <p>R$ -540, 32</p>

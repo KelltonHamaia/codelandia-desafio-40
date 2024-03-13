@@ -5,7 +5,7 @@ import { TransactionHistory } from "./transaction-history";
 export const ChartArea = () => {
 
     return (
-        <div className='w-full h-[363px] grid grid-cols-1 lg:grid-cols-2 gap-8'>
+        <div className='w-full grid grid-cols-1 lg:grid-cols-2 gap-8'>
             <Chartitem title="Gráfico de receitas">
                 <IncomeChart />
             </Chartitem>
