@@ -2,7 +2,7 @@ import { LayoutDashboard, WalletMinimal, ShoppingCart, Users, Settings, Power } 
 
 export const SidebarMenu = () => {
     return (
-        <nav className='hidden h-screen p-10 lg:block w-[304px] dark:border dark:border-r-zinc-700'>
+        <nav className='hidden relative h-screen p-10 lg:block w-[304px] dark:border dark:border-r-zinc-700'>
             <div className="p-4 font-semibold text-[32px]">
                 <span className="text-brand">e</span>Front
             </div>

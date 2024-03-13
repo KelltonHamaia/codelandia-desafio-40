@@ -1,5 +1,6 @@
 import { Bell, Menu, Search } from 'lucide-react'
 import { AvatarMenu } from '@/components/header/avatar';
+import { ThemeSelector } from '../theming/theme-switch';
 
 export const Header = () => {
 
@@ -18,6 +19,7 @@ export const Header = () => {
                     <Bell className='cursor-pointer' />
                 </div>
                 <AvatarMenu />
+                <ThemeSelector />
             </div>
         </header>
     );
